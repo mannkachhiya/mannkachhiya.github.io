@@ -825,25 +825,39 @@
                             </div>
                         </div>
                     </div>
+					
+
+<script type="text/javascript">
+  var submitted = false;
+</script>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" 
+  onload="if(submitted){alert('Thank you for your message! I will get back to you soon.'); window.location.reload();}">
+</iframe>
+
+
+
+				<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdc8KCY9hnzv8uxUAtKq8yglO5hVV_aD63dJtlbp6seBhFK5A/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true"  class="form" id="form1">
                     <div class="bg-white bg-opacity-10 p-8 rounded-2xl backdrop-blur-sm">
                         <h3 class="text-2xl font-bold mb-6">Send Me a Message</h3>
                         <div class="space-y-6">
                             <div>
                                 <label class="block text-sm font-medium mb-2">Name</label>
-                                <input type="text" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70" placeholder="Your Name">
+                                <input type="text" name="entry.1480964936" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70" placeholder="Your Name" required>
                             </div>
                             <div>
                                 <label class="block text-sm font-medium mb-2">Email</label>
-                                <input type="email" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70" placeholder="your@email.com">
+                                <input type="email" name="entry.352477187" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70" placeholder="your@email.com" required>
                             </div>
                             <div>
                                 <label class="block text-sm font-medium mb-2">Subject</label>
-                                <input type="text" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70" placeholder="Project Discussion">
+                                <input type="text" name="entry.254544059" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70" placeholder="Project Discussion" required>
                             </div>
                             <div>
                                 <label class="block text-sm font-medium mb-2">Message</label>
-                                <textarea rows="5" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70 resize-none" placeholder="Your message..."></textarea>
+                                <textarea rows="5" name="entry.1157967624" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-white placeholder-opacity-70 resize-none" placeholder="Your message..." required></textarea>
                             </div>
+							<input type="hidden" id="States" name="entry.786331494" value="1">
                             <button class="w-full button-gradient text-white py-3 rounded-lg font-semibold shadow-lg">
                                 Send Message
                             </button>
@@ -853,7 +867,7 @@
             </div>
         </div>
     </section>
-
+</form>
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-6">
@@ -928,13 +942,6 @@
         }, observerOptions);
         document.querySelectorAll('section').forEach(section => {
             observer.observe(section);
-        });
-
-        // Form submission (placeholder)
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
         });
 
         // Typing animation for hero section

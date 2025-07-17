@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development Cost</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .hover-scale:hover {
+            transform: scale(1.02);
+            transition: transform 0.3s ease;
+        }
+        table tr {
+            transition: background-color 0.3s ease;
+        }
+        table tr:hover {
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-200 font-sans min-h-screen flex items-center justify-center">
+    <div class="container mx-auto p-6 max-w-5xl">
+        <div class="bg-white shadow-2xl rounded-2xl p-10 fade-in">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-10 border-b pb-6">
+                <div>
+                    <h1 class="text-4xl font-extrabold text-gray-900">Website Development Cost</h1>
+                    <p class="text-gray-500 text-lg mt-2">Date: July 17, 2025</p>
+                </div>
+                <div class="text-right">
+                    <h2 class="text-2xl font-semibold text-gray-900">Vedax Pharma</h2>
+                    <p class="text-gray-500 mt-1">Email: Mannkapatel123@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Domain Details -->
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Domain <span class="text-red-600 font-semibold">*Renewal Date: 15-06-2027</span></h2>
+                <table class="w-full text-left border-collapse rounded-lg overflow-hidden">
+                    <thead class="bg-indigo-100">
+                        <tr>
+                            <th class="p-4 text-indigo-900 font-semibold">Description</th>
+                            <th class="p-4 text-indigo-900 font-semibold">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 text-gray-700">Domain Renewal (Domainjerry)</td>
+                            <td class="p-4 text-gray-700">₹1,599/year</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 text-gray-700">Domain Transfer (Hostinger)</td>
+                            <td class="p-4 text-gray-700">₹1,045.84/year</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="font-semibold bg-indigo-50 text-indigo-700">
+                            <td class="p-4 text-right">Total</td>
+                            <td class="p-4">₹2,644.84</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <!-- Hosting Details -->
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Hosting <span class="text-red-600 font-semibold">*Renewal Date: 04-07-2029</span></h2>
+                <table class="w-full text-left border-collapse rounded-lg overflow-hidden">
+                    <thead class="bg-indigo-100">
+                        <tr>
+                            <th class="p-4 text-indigo-900 font-semibold">Description</th>
+                            <th class="p-4 text-indigo-900 font-semibold">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 text-gray-700">Hosting (4 years)</td>
+                            <td class="p-4 text-gray-700">₹5,899.70/year</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="font-semibold bg-red-50 text-red-600">
+                            <td class="p-4 text-right">Actual Price</td>
+                            <td class="p-4"><del>₹23,598.82</del></td>
+                        </tr>
+                        <tr class="font-semibold bg-green-50 text-green-600">
+                            <td class="p-4 text-right">Discount</td>
+                            <td class="p-4">₹-23,598.82</td>
+                        </tr>
+                        <tr class="font-semibold bg-indigo-50 text-indigo-700">
+                            <td class="p-4 text-right">Total</td>
+                            <td class="p-4">₹23,598.82</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <!-- File Structure Details -->
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">Website File Structure</h2>
+                <div class="grid grid-cols-1 gap-6 w-full">
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Home Page</h3>
+                        <p class="text-gray-600 mt-2">index.html [Main File]</p>
+                        <p class="text-gray-600 font-medium">Total: 1 (Main: 1, Sub: 0)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Products</h3>
+                        <p class="text-gray-600 mt-2">index.html [Cover Page - Main File]</p>
+                        <p class="text-gray-600">All_Products.html [All Products - Main File]</p>
+                        <p class="text-gray-600">1_Product_details.html [Main File]</p>
+                        <p class="text-gray-600">21_Product_details.html [Sub Files ×21]</p>
+                        <p class="text-gray-600 font-medium">Total: 24 (Main: 3, Sub: 21)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Available At</h3>
+                        <p class="text-gray-600 mt-2">index.html [Main File]</p>
+                        <p class="text-gray-600">1_Town.html to 85_Town.html [Main: 1, Sub: 85]</p>
+                        <p class="text-gray-600">13_City.html [Main: 1, Sub: 12]</p>
+                        <p class="text-gray-600 font-medium">Total: 100 (Main: 3, Sub: 97)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">About</h3>
+                        <p class="text-gray-600 mt-2">index.html [Main File]</p>
+                        <p class="text-gray-600 font-medium">Total: 1 (Main: 1, Sub: 0)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Get in Touch</h3>
+                        <p class="text-gray-600 mt-2">index.html [Main File]</p>
+                        <p class="text-gray-600">Mail.html [Main File]</p>
+                        <p class="text-gray-600">success.html [Main File]</p>
+                        <p class="text-gray-600 font-medium">Total: 3 (Main: 3, Sub: 0)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Contact</h3>
+                        <p class="text-gray-600 mt-2">index.html [Main File]</p>
+                        <p class="text-gray-600">Mail.html [Sub File]</p>
+                        <p class="text-gray-600 font-medium">Total: 2 (Main: 1, Sub: 1)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Privacy</h3>
+                        <p class="text-gray-600 mt-2">index.html [Sub File]</p>
+                        <p class="text-gray-600 font-medium">Total: 1 (Main: 0, Sub: 1)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <h3 class="font-semibold text-lg text-gray-800">Maintenance</h3>
+                        <p class="text-gray-600 mt-2">Maintenance.html [Main File]</p>
+                        <p class="text-gray-600 font-medium">Total: 1 (Main: 1, Sub: 0)</p>
+                    </div>
+                    <div class="border border-gray-200 p-6 rounded-xl bg-white hover-scale">
+                        <hទ
+                        <h3 class="font-semibold text-lg text-gray-800">404</h3>
+                        <p class="text-gray-600 mt-2">404.html [Main File]</p>
+                        <p class="text-gray-600 font-medium">Total: 1 (Main: 1, Sub: 0)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total Files -->
+            <div class="mb-10">
+                <p class="text-gray-600">Total Files: 134</p>
+                <p class="text-gray-600">Main Files: 14</p>
+                <p class="text-gray-600">Sub Files: 120</p>
+            </div>
+
+            <!-- Developing Cost -->
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Development Cost</h2>
+                <table class="w-full text-left border-collapse rounded-lg overflow-hidden">
+                    <thead class="bg-indigo-100">
+                        <tr>
+                            <th class="p-4 text-indigo-900 font-semibold">Description</th>
+                            <th class="p-4 text-indigo-900 font-semibold">Quantity</th>
+                            <th class="p-4 text-indigo-900 font-semibold">Unit Price</th>
+                            <th class="p-4 text-indigo-900 font-semibold">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 text-gray-700">Main File (Home Page)</td>
+                            <td class="p-4 text-gray-700">1</td>
+                            <td class="p-4 text-gray-700">₹500</td>
+                            <td class="p-4 text-gray-700">₹500</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 text-gray-700">Main Files (Other Directories)</td>
+                            <td class="p-4 text-gray-700">13</td>
+                            <td class="p-4 text-gray-700">₹100</td>
+                            <td class="p-4 text-gray-700">₹1,300</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 text-gray-700">Sub Files</td>
+                            <td class="p-4 text-gray-700">120</td>
+                            <td class="p-4 text-gray-700">₹50</td>
+                            <td class="p-4 text-gray-700">₹6,000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="font-semibold bg-red-50 text-red-600">
+                            <td colspan="3" class="p-4 text-right">Actual Price</td>
+                            <td class="p-4"><del>₹7,800</del></td>
+                        </tr>
+                        <tr class="font-semibold bg-green-50 text-green-600">
+                            <td colspan="3" class="p-4 text-right">Discount</td>
+                            <td class="p-4">₹-1,800</td>
+                        </tr>
+                        <tr class="font-semibold bg-indigo-50 text-indigo-700">
+                            <td colspan="3" class="p-4 text-right">Total</td>
+                            <td class="p-4 text-green-600">₹6,000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <!-- Final Total -->
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Final Total</h2>
+                <table class="w-full text-left border-collapse rounded-lg overflow-hidden">
+                    <tfoot>
+                        <tr class="font-semibold bg-red-50 text-red-600">
+                            <td colspan="3" class="p-4 text-right">Actual Price</td>
+                            <td class="p-4"><del>₹34,043.66</del></td>
+                        </tr>
+                        <tr class="font-semibold bg-green-50 text-green-600">
+                            <td colspan="3" class="p-4 text-right">Discount Total</td>
+                            <td class="p-4">₹-25,398.82</td>
+                        </tr>
+                        <tr class="font-semibold bg-indigo-50 text-indigo-700">
+                            <td colspan="3" class="p-4 text-right">Final Total</td>
+                            <td class="p-4 text-green-600">₹8,644.84</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <!-- Footer -->
+            <div class="text-center text-gray-500 bg-gray-50 py-4 rounded-lg">
+                <p>Contact us at <a href="mailto:TechExzakt@gmail.com" class="text-indigo-600 hover:underline">TechExzakt@gmail.com</a> for any queries.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

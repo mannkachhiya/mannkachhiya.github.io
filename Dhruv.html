@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Kachhiya - Power Electronics Hardware Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .skill-badge {
+            transition: all 0.3s ease;
+        }
+        
+        .skill-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .experience-card {
+            border-left: 4px solid #667eea;
+            transition: all 0.3s ease;
+        }
+        
+        .experience-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+        
+        .publication-link {
+            transition: all 0.3s ease;
+        }
+        
+        .publication-link:hover {
+            color: #667eea;
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <div class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-6">
+                <div class="w-32 h-32 bg-white bg-opacity-20 rounded-full mx-auto flex items-center justify-center mb-6">
+                    <i class="fas fa-user text-6xl text-white"></i>
+                </div>
+                <h1 class="text-5xl font-bold mb-4">Dhruv Kachhiya</h1>
+                <p class="text-xl font-medium mb-2">Power Electronics Hardware Engineer</p>
+                <p class="text-lg opacity-90">Ola Electric || IIT Bombay</p>
+            </div>
+            <div class="flex justify-center space-x-6 text-sm">
+                <div class="flex items-center">
+                    <i class="fas fa-briefcase mr-2"></i>
+                    <span>3+ Years Experience</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-map-marker-alt mr-2"></i>
+                    <span>Bengaluru, India</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-graduation-cap mr-2"></i>
+                    <span>IIT Bombay</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center section-title">About Me</h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                    I'm a hardware design engineer with 3+ years of experience in power electronics, embedded systems, and EV charger development. I currently work at Ola Electric, where I contribute to the design, layout, and validation of SMPS-based vehicle chargers and embedded control systems using TI C2000 microcontrollers.
+                </p>
+                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                    I hold an M.Tech in Power Electronics from IIT Bombay, where I was honored with the Academic Excellence Award and the Best Thesis Award from the Electrical Engineering Department for my work on fault-tolerant converter design.
+                </p>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    My career began at Siemens Energy, where I worked on the manufacturing and testing of gas-insulated switchgear (GIS), performing high-voltage tests, root cause analysis, and process automation. I bring strong technical skills in PCB design (KiCad, Allegro, OrCAD), embedded C programming, control systems, and simulation tools like PLECS, Simulink, and LTSpice. I'm passionate about designing robust, efficient hardware that powers innovation in clean energy and electric mobility.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center section-title">Professional Experience</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                
+                <!-- Ola Electric -->
+                <div class="experience-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">Assistant Manager</h3>
+                            <p class="text-xl text-blue-600 font-medium">Ola Electric</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-500 font-medium">Aug 2024 - Present</p>
+                            <p class="text-sm text-gray-500">Bengaluru, Karnataka</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mr-3">Full-time</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Current Role</span>
+                    </div>
+                    <p class="text-gray-600">Contributing to the design, layout, and validation of SMPS-based vehicle chargers and embedded control systems using TI C2000 microcontrollers for electric vehicle charging infrastructure.</p>
+                </div>
+
+                <!-- Siemens Energy - Testing Engineer -->
+                <div class="experience-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">Testing Engineer</h3>
+                            <p class="text-xl text-blue-600 font-medium">Siemens Energy</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-500 font-medium">Oct 2019 - Aug 2021</p>
+                            <p class="text-sm text-gray-500">Aurangabad, Maharashtra</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mr-3">Full-time</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">1 yr 11 mos</span>
+                    </div>
+                    <p class="text-gray-600">Specialized in AC/DC and Product Design, working on manufacturing and testing of gas-insulated switchgear (GIS), performing high-voltage tests, root cause analysis, and process automation.</p>
+                </div>
+
+                <!-- Siemens Energy - Graduate Engineering Trainee -->
+                <div class="experience-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">Graduate Engineering Trainee</h3>
+                            <p class="text-xl text-blue-600 font-medium">Siemens Energy</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-500 font-medium">Oct 2018 - Oct 2019</p>
+                            <p class="text-sm text-gray-500">Aurangabad, Maharashtra</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mr-3">Full-time</span>
+                        <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">1 yr 1 mo</span>
+                    </div>
+                    <p class="text-gray-600">Started career in electrical engineering with comprehensive training in power systems, switchgear technology, and industrial automation processes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center section-title">Education</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                
+                <!-- IIT Bombay -->
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg border border-blue-100">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">Indian Institute of Technology, Bombay</h3>
+                            <p class="text-lg text-blue-600 font-medium">Master's degree, Power Electronics and Power System</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-500 font-medium">Jan 2021 - Jun 2024</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4 mb-4">
+                        <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold">Grade: 9.89/10</span>
+                        <span class="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-semibold">Academic Excellence Award</span>
+                        <span class="bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-semibold">Best Thesis Award</span>
+                    </div>
+                    <p class="text-gray-600">Specialized in fault-tolerant converter design with exceptional academic performance, earning recognition from the Electrical Engineering Department.</p>
+                </div>
+
+                <!-- University of Baroda -->
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">The Maharaja Sayajirao University of Baroda</h3>
+                            <p class="text-lg text-blue-600 font-medium">Bachelor of Engineering - BE, Electrical Engineering</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-500 font-medium">2014 - 2018</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Foundation in electrical engineering principles, preparing for advanced studies and professional career in power electronics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Publications Section -->
+    <div class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center section-title">Publications</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-blue-500">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Open Circuit Fault-Diagnosis and Fault-Tolerant Operation of ANPC</h3>
+                            <p class="text-blue-600 font-medium mb-2">2024 IEEE International Communications Energy Conference (INTELEC)</p>
+                            <p class="text-sm text-gray-500 mb-4">Published: August 5, 2024</p>
+                        </div>
+                        <div class="ml-4">
+                            <i class="fas fa-file-alt text-3xl text-blue-500"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Research focused on fault-diagnosis and fault-tolerant operation of Active Neutral-Point-Clamped converters, contributing to improved reliability in power electronic systems.</p>
+                    <a href="https://ieeexplore.ieee.org/document/10679019" target="_blank" class="publication-link inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+                        <i class="fas fa-external-link-alt mr-2"></i>
+                        View Publication on IEEE Xplore
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center section-title">Technical Skills</h2>
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- PCB Design Tools -->
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-microchip text-xl"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800">PCB Design Tools</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-blue-700 mr-2 mb-2">KiCad</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-blue-700 mr-2 mb-2">Allegro</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-blue-700 mr-2 mb-2">OrCAD</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming -->
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-code text-xl"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800">Programming</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-green-700 mr-2 mb-2">Embedded C</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-green-700 mr-2 mb-2">TI C2000</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-green-700 mr-2 mb-2">Control Systems</span>
+                        </div>
+                    </div>
+
+                    <!-- Simulation Tools -->
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-chart-line text-xl"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800">Simulation Tools</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-purple-700 mr-2 mb-2">PLECS</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-purple-700 mr-2 mb-2">Simulink</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-purple-700 mr-2 mb-2">LTSpice</span>
+                        </div>
+                    </div>
+
+                    <!-- Power Electronics -->
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-bolt text-xl"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800">Power Electronics</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-red-700 mr-2 mb-2">SMPS Design</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-red-700 mr-2 mb-2">EV Chargers</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-red-700 mr-2 mb-2">Fault Diagnosis</span>
+                        </div>
+                    </div>
+
+                    <!-- Testing & Validation -->
+                    <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-vial text-xl"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800">Testing & Validation</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-yellow-700 mr-2 mb-2">High-Voltage Testing</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-yellow-700 mr-2 mb-2">Root Cause Analysis</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-yellow-700 mr-2 mb-2">Process Automation</span>
+                        </div>
+                    </div>
+
+                    <!-- Systems -->
+                    <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-cogs text-xl"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800">Systems</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-indigo-700 mr-2 mb-2">Embedded Systems</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-indigo-700 mr-2 mb-2">GIS Systems</span>
+                            <span class="skill-badge inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-indigo-700 mr-2 mb-2">Control Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="py-16 gradient-bg text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-center">Get In Touch</h2>
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-xl mb-8 opacity-90">
+                    I'm always interested in discussing new opportunities in power electronics, embedded systems, and clean energy technology.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                    <div class="flex flex-col items-center">
+                        <div class="contact-icon mb-4">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Email</h3>
+                        <p class="opacity-90">dhruv.kachhiya@example.com</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="contact-icon mb-4">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">LinkedIn</h3>
+                        <p class="opacity-90">Connect with me</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="contact-icon mb-4">
+                            <i class="fas fa-map-marker-alt text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Location</h3>
+                        <p class="opacity-90">Bengaluru, Karnataka, India</p>
+                    </div>
+                </div>
+                <div class="border-t border-white border-opacity-20 pt-8">
+                    <p class="text-sm opacity-70">© 2024 Dhruv Kachhiya. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
